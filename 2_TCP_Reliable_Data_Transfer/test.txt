@@ -1,0 +1,118 @@
+Answering your question with a slight modification in receiver port (using 20002 instead 20000 to make it easy to read).Receiver format:%receiver file.txt 20002 128.59.15.37 20001 logfile.txtSender format:% sender file.txt 128.59.15.38 20000 20001 logfile.txt 1152ÊEmulator can be run in following format:./newudpl -o 128.59.15.38/20002 -i 128.59.15.37/* -p20000:6000This is assuming that emulator is running on 128.59.15.38. It is accepts packets coming from 128.59.15.37, any port.It listens on port 20000 and forwards on port 6000.ÊIf you are using any other way of running the emulator. Please state clearly in readme.my usage:
+java sender test.txt 128.59.15.73 20000 20001 logfile.txt 1
+
+java receiver test_receiver.txt 20002 160.39.132.111 20001 logfile.txt
+
+./newudpl -o localhost/20002 -i 160.39.132.111/* -p20000:6000 -L 10
+
+run receiver and proxy on CLIC, run sender on Mac
+CLIC IP: 128.59.15.73
+my IP: 160.39.132.111
+
+graph:
+160.39.132.111/**** ->
+	128.59.15.73/20000
+/6000 ->
+	localhost(127.0.0.1)/20002
+
+Answering your question with a slight modification in receiver port (using 20002 instead 20000 to make it easy to read).Receiver format:%receiver file.txt 20002 128.59.15.37 20001 logfile.txtSender format:% sender file.txt 128.59.15.38 20000 20001 logfile.txt 1152ÊEmulator can be run in following format:./newudpl -o 128.59.15.38/20002 -i 128.59.15.37/* -p20000:6000This is assuming that emulator is running on 128.59.15.38. It is accepts packets coming from 128.59.15.37, any port.It listens on port 20000 and forwards on port 6000.ÊIf you are using any other way of running the emulator. Please state clearly in readme.my usage:
+java sender test.txt 128.59.15.73 20000 20001 logfile.txt 1
+
+java receiver test_receiver.txt 20002 160.39.132.111 20001 logfile.txt
+
+./newudpl -o localhost/20002 -i 160.39.132.111/* -p20000:6000 -L 10
+
+run receiver and proxy on CLIC, run sender on Mac
+CLIC IP: 128.59.15.73
+my IP: 160.39.132.111
+
+graph:
+160.39.132.111/**** ->
+	128.59.15.73/20000
+/6000 ->
+	localhost(127.0.0.1)/20002
+
+Answering your question with a slight modification in receiver port (using 20002 instead 20000 to make it easy to read).Receiver format:%receiver file.txt 20002 128.59.15.37 20001 logfile.txtSender format:% sender file.txt 128.59.15.38 20000 20001 logfile.txt 1152ÊEmulator can be run in following format:./newudpl -o 128.59.15.38/20002 -i 128.59.15.37/* -p20000:6000This is assuming that emulator is running on 128.59.15.38. It is accepts packets coming from 128.59.15.37, any port.It listens on port 20000 and forwards on port 6000.ÊIf you are using any other way of running the emulator. Please state clearly in readme.my usage:
+java sender test.txt 128.59.15.73 20000 20001 logfile.txt 1
+
+java receiver test_receiver.txt 20002 160.39.132.111 20001 logfile.txt
+
+./newudpl -o localhost/20002 -i 160.39.132.111/* -p20000:6000 -L 10
+
+run receiver and proxy on CLIC, run sender on Mac
+CLIC IP: 128.59.15.73
+my IP: 160.39.132.111
+
+graph:
+160.39.132.111/**** ->
+	128.59.15.73/20000
+/6000 ->
+	localhost(127.0.0.1)/20002
+
+Answering your question with a slight modification in receiver port (using 20002 instead 20000 to make it easy to read).Receiver format:%receiver file.txt 20002 128.59.15.37 20001 logfile.txtSender format:% sender file.txt 128.59.15.38 20000 20001 logfile.txt 1152ÊEmulator can be run in following format:./newudpl -o 128.59.15.38/20002 -i 128.59.15.37/* -p20000:6000This is assuming that emulator is running on 128.59.15.38. It is accepts packets coming from 128.59.15.37, any port.It listens on port 20000 and forwards on port 6000.ÊIf you are using any other way of running the emulator. Please state clearly in readme.my usage:
+java sender test.txt 128.59.15.73 20000 20001 logfile.txt 1
+
+java receiver test_receiver.txt 20002 160.39.132.111 20001 logfile.txt
+
+./newudpl -o localhost/20002 -i 160.39.132.111/* -p20000:6000 -L 10
+
+run receiver and proxy on CLIC, run sender on Mac
+CLIC IP: 128.59.15.73
+my IP: 160.39.132.111
+
+graph:
+160.39.132.111/**** ->
+	128.59.15.73/20000
+/6000 ->
+	localhost(127.0.0.1)/20002
+
+Answering your question with a slight modification in receiver port (using 20002 instead 20000 to make it easy to read).Receiver format:%receiver file.txt 20002 128.59.15.37 20001 logfile.txtSender format:% sender file.txt 128.59.15.38 20000 20001 logfile.txt 1152ÊEmulator can be run in following format:./newudpl -o 128.59.15.38/20002 -i 128.59.15.37/* -p20000:6000This is assuming that emulator is running on 128.59.15.38. It is accepts packets coming from 128.59.15.37, any port.It listens on port 20000 and forwards on port 6000.ÊIf you are using any other way of running the emulator. Please state clearly in readme.my usage:
+java sender test.txt 128.59.15.73 20000 20001 logfile.txt 1
+
+java receiver test_receiver.txt 20002 160.39.132.111 20001 logfile.txt
+
+./newudpl -o localhost/20002 -i 160.39.132.111/* -p20000:6000 -L 10
+
+run receiver and proxy on CLIC, run sender on Mac
+CLIC IP: 128.59.15.73
+my IP: 160.39.132.111
+
+graph:
+160.39.132.111/**** ->
+	128.59.15.73/20000
+/6000 ->
+	localhost(127.0.0.1)/20002
+
+Answering your question with a slight modification in receiver port (using 20002 instead 20000 to make it easy to read).Receiver format:%receiver file.txt 20002 128.59.15.37 20001 logfile.txtSender format:% sender file.txt 128.59.15.38 20000 20001 logfile.txt 1152ÊEmulator can be run in following format:./newudpl -o 128.59.15.38/20002 -i 128.59.15.37/* -p20000:6000This is assuming that emulator is running on 128.59.15.38. It is accepts packets coming from 128.59.15.37, any port.It listens on port 20000 and forwards on port 6000.ÊIf you are using any other way of running the emulator. Please state clearly in readme.my usage:
+java sender test.txt 128.59.15.73 20000 20001 logfile.txt 1
+
+java receiver test_receiver.txt 20002 160.39.132.111 20001 logfile.txt
+
+./newudpl -o localhost/20002 -i 160.39.132.111/* -p20000:6000 -L 10
+
+run receiver and proxy on CLIC, run sender on Mac
+CLIC IP: 128.59.15.73
+my IP: 160.39.132.111
+
+graph:
+160.39.132.111/**** ->
+	128.59.15.73/20000
+/6000 ->
+	localhost(127.0.0.1)/20002
+
+Answering your question with a slight modification in receiver port (using 20002 instead 20000 to make it easy to read).Receiver format:%receiver file.txt 20002 128.59.15.37 20001 logfile.txtSender format:% sender file.txt 128.59.15.38 20000 20001 logfile.txt 1152ÊEmulator can be run in following format:./newudpl -o 128.59.15.38/20002 -i 128.59.15.37/* -p20000:6000This is assuming that emulator is running on 128.59.15.38. It is accepts packets coming from 128.59.15.37, any port.It listens on port 20000 and forwards on port 6000.ÊIf you are using any other way of running the emulator. Please state clearly in readme.my usage:
+java sender test.txt 128.59.15.73 20000 20001 logfile.txt 1
+
+java receiver test_receiver.txt 20002 160.39.132.111 20001 logfile.txt
+
+./newudpl -o localhost/20002 -i 160.39.132.111/* -p20000:6000 -L 10
+
+run receiver and proxy on CLIC, run sender on Mac
+CLIC IP: 128.59.15.73
+my IP: 160.39.132.111
+
+graph:
+160.39.132.111/**** ->
+	128.59.15.73/20000
+/6000 ->
+	localhost(127.0.0.1)/20002
