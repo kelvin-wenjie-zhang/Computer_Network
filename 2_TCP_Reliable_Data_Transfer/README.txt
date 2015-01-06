@@ -1,10 +1,9 @@
-—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 Project Documentation:
 1) To execute the project, please invoke the emulator first, and then invoke the sender,
    and then invoke the receiver at the end.
 
 2) To compile the project:
-	- type “make” at the command line
+	- type √ímake√ì at the command line
 
 3) To run the project:
 	$ ./newudpl -o <remote_IP>/<remote_port> -i <sender_IP>/* -p20000:6000 -L 50 -B 50000 -d1
@@ -29,7 +28,6 @@ AGAIN, run the sender before the receiver.
 	m. No fatal errors / exceptions
 
 
-—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 5) Usage scenarios:
 	Assume: - The receiver and the proxy is running on 128.59.15.77.
 		- The proxy listens on port 20000 and forward packets to port 6000
@@ -66,7 +64,6 @@ AGAIN, run the sender before the receiver.
 	Tue Nov 04 16:23:35 EST 2014, /128.59.15.77, /160.39.132.111,     seq # 4,     ACK # 3, sent
 	Tue Nov 04 16:23:36 EST 2014, /160.39.132.111, /128.59.15.77,     seq # 4,     ACK # 0, received
 
-———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 6) a) TCP segment structure:
    - The TCP segment structure implementation is in the TcpPacket.java file. It contains a basic structure of a TCP Packet,
    including source_IP, source_port, destination_IP, destination_port, sequence_number, acknowledge_number, head_length,
@@ -74,9 +71,9 @@ AGAIN, run the sender before the receiver.
    - The TcpPacket class contains get() and set() functions for each variables.
 
    b) The states typically visited by a sender and receiver:
-   - Sender’s sent packet has ACK 0 all the time, because sender does not ACK anything.
+   - Sender√ïs sent packet has ACK 0 all the time, because sender does not ACK anything.
    - Then sender would implement as wait-and-stop mechanism, i.e. the sender would send one packet at a time,
-     and wait for the receiver’s ACK packet.
+     and wait for the receiver√ïs ACK packet.
 
    c) The loss recovery mechanism:
    - The loss packet would cause the time-out event of the sender, which causes the sender to retransmit the 
@@ -85,13 +82,11 @@ AGAIN, run the sender before the receiver.
    d) Unusual about my implementation:
    - Please run the sender first, and then the receiver.
    - The sender is implemented as wait-and-stop mechanism. The <window_size> is 1 by default.
-   - The “flags” from the log file of the receiver is either “sent” or “receive”.
+   - The √íflags√ì from the log file of the receiver is either √ísent√ì or √íreceive√ì.
 
    e) additional features:
    - Print out the log in a easy-to-read format by using DecimalFormatter
    - Usage of serialization
    - The sender can send all kinds of file including text file.
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
 
 
